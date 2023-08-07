@@ -1,4 +1,4 @@
-FROM 974889669581.dkr.ecr.ap-south-1.amazonaws.com/login-app:latest
+FROM 974889669581.dkr.ecr.ap-south-1.amazonaws.com/tomcat:v1.0
 LABEL maintainer="HHK"
 RUN adduser tomcat
 RUN chown -R tomcat:tomcat  /usr/local/tomcat/webapps
